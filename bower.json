@@ -1,6 +1,6 @@
 {
-  "name": "github-api-app",
-  "description": "Search for a gitHub user's project list and descriptions",
+  "name": "angular",
+  "description": "learn angular",
   "main": "gulpfile.js",
   "authors": [
     "Alexandra-Axenti <axentialexandra@yahoo.com>"
