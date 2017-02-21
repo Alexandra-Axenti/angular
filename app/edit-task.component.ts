@@ -4,16 +4,16 @@ import { Task } from './task.model';
 @Component({
   selector: 'edit-task',
   template: `
-    <div *ngIf="selectedTask">
+    <div *ngIf="childSelectedTask">
       <h1>Edit Task</h1>
       <div>
         <label>Enter Task Description:</label>
-        <input [(ngModel)]="selectedTask.description">
+        <input [(ngModel)]="childSelectedTask.description">
       </div>
       <div>
         <label>Enter Task ID:</label>
-        <input [(ngModel)]="selectedTask.id">
-        <button (click)="finishedEditing()">Done</button>
+        <input [(ngModel)]="childSelectedTask.id">
+        <button (click)="doneClicked()">Done</button>
       </div>
     </div>
   `
